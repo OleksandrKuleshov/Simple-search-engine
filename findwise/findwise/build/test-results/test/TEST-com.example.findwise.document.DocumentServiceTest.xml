@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.findwise.document.DocumentServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-01-10T09:03:35" hostname="DESKTOP-48355KO" time="0.055">
+  <properties/>
+  <testcase name="[1] term=fox, documentIds=[1, 3], expectedResult=[Document(id=1, content=The brown fox jumped over the brown dog.), Document(id=3, content=The Red Fox bit the lazy dog!)]" classname="com.example.findwise.document.DocumentServiceTest" time="0.04"/>
+  <testcase name="addDocumentShouldOk()" classname="com.example.findwise.document.DocumentServiceTest" time="0.002"/>
+  <testcase name="findByWordShouldReturnEmptyList()" classname="com.example.findwise.document.DocumentServiceTest" time="0.001"/>
+  <testcase name="addDocumentShouldWithDuplicateDocumentIdShouldThrow()" classname="com.example.findwise.document.DocumentServiceTest" time="0.005"/>
+  <system-out><![CDATA[10:03:35.575 [Test worker] ERROR com.example.findwise.document.DocumentService - Failed to add new document, documentId=1 already exists in the mock db
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

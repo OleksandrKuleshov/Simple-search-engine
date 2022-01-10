@@ -1,0 +1,6 @@
+®10:03:35.440 [Test worker] INFO com.example.findwise.document.DocumentController - Received POST request for adding a document=DocumentDTO(id=1, content=Test content)
+≥10:03:35.475 [Test worker] INFO com.example.findwise.document.DocumentController - Received POST request for adding a list of documents=[DocumentDTO(id=1, content=Test content)]
+Å10:03:35.480 [Test worker] INFO com.example.findwise.document.DocumentController - Received GET request for search by term=Test
+Å10:03:35.483 [Test worker] INFO com.example.findwise.document.DocumentController - Received GET request for search by term=Test
+Ö10:03:35.489 [Test worker] INFO com.example.findwise.document.DocumentController - Received POST request for adding a document=null
+ô10:03:35.575 [Test worker] ERROR com.example.findwise.document.DocumentService - Failed to add new document, documentId=1 already exists in the mock db
